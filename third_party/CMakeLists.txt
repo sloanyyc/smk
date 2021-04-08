@@ -11,6 +11,7 @@ FetchContent_Declare(freetype2
 FetchContent_Declare(libnyquist
   #GIT_REPOSITORY https://github.com/ArthurSonzogni/libnyquist
   GIT_REPOSITORY https://github.com/ddiakopoulos/libnyquist
+  GIT_TAG fa4e1e37c3278aa3a9439f766e52e0b2db894c55
   )
 
 FetchContent_Declare(glm
