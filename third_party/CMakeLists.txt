@@ -4,34 +4,34 @@ SET(BUILD_SHARED_LIBS OFF CACHE BOOL "")
 
 set(FETCHCONTENT_UPDATES_DISCONNECTED TRUE)
 FetchContent_Declare(freetype2
-  GIT_REPOSITORY https://github.com/aseprite/freetype2.git
+  GIT_REPOSITORY https://github.com.cnpmjs.org/aseprite/freetype2.git
   GIT_TAG VER-2-10-0
 )
 
 FetchContent_Declare(libnyquist
   #GIT_REPOSITORY https://github.com/ArthurSonzogni/libnyquist
-  GIT_REPOSITORY https://github.com/ddiakopoulos/libnyquist
+  GIT_REPOSITORY https://github.com.cnpmjs.org/ddiakopoulos/libnyquist
   GIT_TAG fa4e1e37c3278aa3a9439f766e52e0b2db894c55
   )
 
 FetchContent_Declare(glm
-  GIT_REPOSITORY https://github.com/g-truc/glm
+  GIT_REPOSITORY https://github.com.cnpmjs.org/g-truc/glm
   GIT_TAG fce2abd01ce21063bd25ba67c9318be83bf48813
 )
 
 FetchContent_Declare(glew
   #GIT_REPOSITORY https://github.com/ArthurSonzogni/glew-cmake
   #GIT_TAG 4b5f38fec0cee5640e06f550f2cbc8c7036aecb5
-  GIT_REPOSITORY https://github.com/Perlmint/glew-cmake
+  GIT_REPOSITORY https://github.com.cnpmjs.org/Perlmint/glew-cmake
 )
 
 FetchContent_Declare(glfw
-  GIT_REPOSITORY https://github.com/glfw/glfw
+  GIT_REPOSITORY https://github.com.cnpmjs.org/glfw/glfw
   GIT_TAG 3.3
 )
 
 FetchContent_Declare(openal
-  GIT_REPOSITORY https://github.com/kcat/openal-soft
+  GIT_REPOSITORY https://github.com.cnpmjs.org/kcat/openal-soft
   GIT_TAG e123fa0ec349337ba4db00ebb2bbec1b7bee4cfa
 )
 
